@@ -4,8 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -39,8 +37,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## State management
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Recoil.js was selected as state management in the project.
+[Here](https://recoiljs.org/docs/introduction/installation) you can see documentation how it works.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Stylesheet management
+
+Aphrodite.js was selected as stylesheet management in the project.
+[Here](https://github.com/Khan/aphrodite) you can see documentation how it works.
