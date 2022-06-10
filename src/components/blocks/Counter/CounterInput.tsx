@@ -7,7 +7,7 @@ export const CounterInput = () => {
   const [counter, setCounter] = useRecoilState(counterAtom);
 
   const onChange = (value: string) => {
-    const valueAsNumber = Number(value) ?? 0;
+    const valueAsNumber = Number(value) || 0;
 
     setCounter(valueAsNumber);
   };
